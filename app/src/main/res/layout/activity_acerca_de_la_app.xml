@@ -4,30 +4,78 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#a6c1ee"
     tools:context=".acerca_de_la_app">
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="78dp" />
+        android:layout_width="295dp"
+        android:layout_height="50dp"
+        android:text="¿Que queremos lograr?"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="231dp" />
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="252dp"
-        android:layout_height="111dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="76dp"
-        tools:layout_editor_absoluteY="168dp" />
+        android:layout_width="301dp"
+        android:layout_height="62dp"
+        android:text="Comencemos con este recorrido de auto-conocimiento"
+        android:textColor="#3B7739"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="626dp" />
 
     <Button
-        android:id="@+id/button5"
-        android:layout_width="196dp"
-        android:layout_height="100dp"
+        android:layout_width="74dp"
+        android:layout_height="70dp"
         android:background="@drawable/boton"
-        android:text="Button"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="478dp" />
+        android:text="Volver"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="607dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="188dp"
+        android:layout_height="62dp"
+        android:text="¡Felicidades!"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="48dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="349dp"
+        android:layout_height="37dp"
+        android:text="Nos alegra encontrarte aqui"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="203dp"
+        android:layout_height="37dp"
+        android:text="Jamas dejes de sonreir "
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="295dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="363dp"
+        android:layout_height="61dp"
+        android:text="En la vida hay que evitar tres cosas"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="399dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
