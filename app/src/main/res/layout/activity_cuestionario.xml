@@ -7,6 +7,13 @@
     android:background="#009efd"
     tools:context=".Cuestionario">
 
+    <Switch
+        android:id="@+id/Prgta1_nunca_3ptos"
+        android:layout_width="61dp"
+        android:layout_height="33dp"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="271dp" />
+
     <TextView
         android:id="@+id/textView14"
         android:layout_width="229dp"
@@ -50,5 +57,49 @@
         android:textSize="18sp"
         tools:layout_editor_absoluteX="19dp"
         tools:layout_editor_absoluteY="272dp" />
+
+    <Switch
+        android:id="@+id/Prgta1_siempre_0ptos"
+        android:layout_width="56dp"
+        android:layout_height="35dp"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="272dp" />
+
+    <Switch
+        android:id="@+id/Prgta1_aveces_1ptos"
+        android:layout_width="51dp"
+        android:layout_height="32dp"
+        tools:layout_editor_absoluteX="232dp"
+        tools:layout_editor_absoluteY="272dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="66dp"
+        android:layout_height="27dp"
+        android:text="Siempre"
+        android:textSize="18sp"
+        android:textStyle="normal|bold|italic"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="235dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aveces"
+        android:textSize="18sp"
+        android:textStyle="normal|bold|italic"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="235dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nunca"
+        android:textSize="18sp"
+        android:textStyle="normal|bold|italic"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="235dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

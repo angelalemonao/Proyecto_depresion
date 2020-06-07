@@ -19,7 +19,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Correo electrónico:"
-        android:textColor="#FFFFFF"
+        android:textColor="#121111"
+        android:textSize="24sp"
         tools:layout_editor_absoluteX="80dp"
         tools:layout_editor_absoluteY="186dp" />
 
@@ -37,7 +38,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Contraseña:"
-        android:textColor="#FFFFFF"
+        android:textColor="#000000"
+        android:textSize="24sp"
         tools:layout_editor_absoluteX="80dp"
         tools:layout_editor_absoluteY="286dp" />
 
@@ -76,8 +78,9 @@
         android:background="#00FFFFFF"
         android:fontFamily="cursive"
         android:text="¡Bienvenido!"
-        android:textColor="#FFFFFF"
+        android:textColor="#000000"
         android:textSize="36sp"
+        android:textStyle="bold|italic"
         tools:layout_editor_absoluteX="125dp"
         tools:layout_editor_absoluteY="78dp" />
 
