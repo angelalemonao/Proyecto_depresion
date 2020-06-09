@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/NIVELES">
+    android:background="@drawable/xc">
 
     <Button
         android:id="@+id/button23"
@@ -28,7 +28,7 @@
         android:layout_width="239dp"
         android:layout_height="73dp"
         android:text="Mis niveles son:"
-        android:textColor="#00A5E6"
+        android:textColor="#06678E"
         android:textSize="30sp"
         tools:layout_editor_absoluteX="75dp"
         tools:layout_editor_absoluteY="63dp" />
@@ -38,15 +38,15 @@
         android:layout_width="190dp"
         android:layout_height="77dp"
         android:background="@drawable/boton"
-        tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="283dp" />
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="275dp" />
 
     <SeekBar
         android:id="@+id/seekBar2"
         android:layout_width="190dp"
         android:layout_height="77dp"
         android:background="@drawable/boton"
-        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteX="95dp"
         tools:layout_editor_absoluteY="417dp" />
 
     <SeekBar
@@ -54,7 +54,7 @@
         android:layout_width="190dp"
         android:layout_height="77dp"
         android:background="@drawable/boton"
-        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteX="99dp"
         tools:layout_editor_absoluteY="551dp" />
 
     <TextView
@@ -64,8 +64,8 @@
         android:text="Energia"
         android:textColor="#2F90DD"
         android:textSize="30sp"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="226dp" />
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="210dp" />
 
     <TextView
         android:id="@+id/textView13"
