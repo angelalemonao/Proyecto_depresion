@@ -16,7 +16,7 @@
         tools:layout_editor_absoluteY="49dp" />
 
     <EditText
-        android:id="@+id/editTextNumber3"
+        android:id="@+id/id_imc"
         android:layout_width="75dp"
         android:layout_height="52dp"
         android:ems="10"
@@ -40,4 +40,12 @@
         android:textStyle="bold|italic"
         tools:layout_editor_absoluteX="55dp"
         tools:layout_editor_absoluteY="119dp" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_back"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="638dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

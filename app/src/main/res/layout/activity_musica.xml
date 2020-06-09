@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#A5BA8C">
+    android:background="@drawable/haluna">
 
     <Button
         android:id="@+id/button24"
@@ -33,12 +33,13 @@
         android:id="@+id/textView15"
         android:layout_width="293dp"
         android:layout_height="95dp"
+        android:background="#16D3E8DE"
         android:gravity="center_horizontal|center_vertical"
         android:text="MP3 Player encuentra tu espacio de alegria!"
         android:textSize="24sp"
         android:textStyle="normal|bold|italic"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="386dp" />
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="115dp" />
 
     <Button
         android:id="@+id/button19"

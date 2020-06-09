@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#a6c1ee"
+    android:background="#9EBEF4"
     tools:context=".acerca_de_la_app">
 
     <TextView
@@ -25,16 +25,8 @@
         android:textColor="#3B7739"
         android:textSize="18sp"
         android:textStyle="italic"
-        tools:layout_editor_absoluteX="94dp"
-        tools:layout_editor_absoluteY="626dp" />
-
-    <Button
-        android:layout_width="74dp"
-        android:layout_height="70dp"
-        android:background="@drawable/boton"
-        android:text="Volver"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="607dp" />
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="513dp" />
 
     <TextView
         android:id="@+id/textView10"
@@ -77,5 +69,26 @@
         android:textStyle="italic"
         tools:layout_editor_absoluteX="24dp"
         tools:layout_editor_absoluteY="399dp" />
+
+    <Button
+        android:layout_width="108dp"
+        android:layout_height="81dp"
+        android:background="@drawable/back"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="606dp" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="105dp"
+        android:layout_height="71dp"
+        android:background="@drawable/ok"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:textStyle="normal|bold|italic"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="616dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

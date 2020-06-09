@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#AA00FF"
-    tools:context=".MainActivity" >
+    android:background="#0055FF"
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/titulo"
@@ -14,9 +14,9 @@
         android:fontFamily="sans-serif-medium"
         android:text="Ajustes"
         android:textColor="#FFFFFF"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="164dp"
-        tools:layout_editor_absoluteY="74dp" />
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="66dp" />
 
     <LinearLayout
         android:layout_width="409dp"
@@ -55,22 +55,26 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="152dp"
+        android:layout_height="34dp"
         android:text="Nombre:"
         android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
         tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="333dp" />
+        tools:layout_editor_absoluteY="323dp" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="267dp"
+        android:layout_height="31dp"
         android:background="#00FFFFFF"
         android:text="Fecha de nacimiento:"
         android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
         tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="444dp" />
+        tools:layout_editor_absoluteY="438dp" />
 
     <EditText
         android:id="@+id/27/05/1995"
@@ -83,20 +87,19 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="guardar"
-        tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="570dp" />
+        android:layout_width="89dp"
+        android:layout_height="71dp"
+        android:background="@drawable/ok"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="605dp" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#00FFFFFF"
-        android:text="volver"
+        android:layout_width="80dp"
+        android:layout_height="69dp"
+        android:background="@drawable/back"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="618dp" />
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="605dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

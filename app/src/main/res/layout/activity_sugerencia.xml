@@ -7,15 +7,6 @@
     android:background="#5C6ECD"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/boton"
-        android:text="Enviar"
-        tools:layout_editor_absoluteX="238dp"
-        tools:layout_editor_absoluteY="447dp" />
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -53,11 +44,18 @@
         tools:layout_editor_absoluteY="282dp" />
 
     <Button
+        android:id="@+id/button3"
+        android:layout_width="97dp"
+        android:layout_height="64dp"
+        android:background="@drawable/ok"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="492dp" />
+
+    <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/boton"
-        android:text="Cancelar"
-        tools:layout_editor_absoluteX="88dp"
-        tools:layout_editor_absoluteY="447dp" />
+        android:layout_width="97dp"
+        android:layout_height="65dp"
+        android:background="@drawable/back"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="491dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

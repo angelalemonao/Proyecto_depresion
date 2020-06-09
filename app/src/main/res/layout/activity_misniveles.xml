@@ -7,11 +7,11 @@
 
     <Button
         android:id="@+id/button23"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="?attr/homeAsUpIndicator"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="655dp" />
+        android:layout_width="79dp"
+        android:layout_height="65dp"
+        android:background="@drawable/back"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="650dp" />
 
     <TextView
         android:id="@+id/textView14"

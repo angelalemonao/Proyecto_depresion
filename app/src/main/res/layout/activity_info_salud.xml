@@ -6,10 +6,18 @@
     android:layout_height="match_parent"
     android:background="#63D568">
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="291dp"
+        android:layout_height="430dp"
+        app:srcCompat="@drawable/arbol"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="311dp" />
+
     <TextView
         android:id="@+id/textView17"
-        android:layout_width="275dp"
-        android:layout_height="136dp"
+        android:layout_width="273dp"
+        android:layout_height="121dp"
         android:gravity="center_horizontal|center_vertical"
         android:text="Nos interesa tu salud!"
         android:textSize="24sp"
@@ -49,38 +57,40 @@
 
     <EditText
         android:id="@+id/editTextNumber"
-        android:layout_width="146dp"
-        android:layout_height="71dp"
+        android:layout_width="130dp"
+        android:layout_height="56dp"
         android:background="#C7D5B8"
         android:ems="10"
         android:inputType="number"
+        android:textColor="#000000"
         tools:layout_editor_absoluteX="57dp"
         tools:layout_editor_absoluteY="311dp" />
 
     <EditText
         android:id="@+id/editTextNumber2"
-        android:layout_width="139dp"
-        android:layout_height="73dp"
+        android:layout_width="124dp"
+        android:layout_height="55dp"
         android:background="#C7DFAA"
         android:ems="10"
         android:inputType="number"
+        android:textColor="#050505"
         tools:layout_editor_absoluteX="227dp"
         tools:layout_editor_absoluteY="311dp" />
 
     <Button
         android:id="@+id/button20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Atras"
-        tools:layout_editor_absoluteX="57dp"
-        tools:layout_editor_absoluteY="640dp" />
+        android:layout_width="89dp"
+        android:layout_height="67dp"
+        android:background="@drawable/btn_back"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="626dp" />
 
     <Button
         android:id="@+id/button21"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Ver consejo"
-        tools:layout_editor_absoluteX="239dp"
-        tools:layout_editor_absoluteY="640dp" />
+        android:layout_width="84dp"
+        android:layout_height="72dp"
+        android:background="@drawable/ver"
+        tools:layout_editor_absoluteX="297dp"
+        tools:layout_editor_absoluteY="626dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

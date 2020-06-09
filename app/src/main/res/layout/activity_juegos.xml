@@ -26,22 +26,22 @@
         android:layout_width="174dp"
         android:layout_height="173dp"
         android:background="@drawable/juego2"
-        tools:layout_editor_absoluteX="209dp"
-        tools:layout_editor_absoluteY="279dp" />
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="306dp" />
 
     <Button
         android:id="@+id/button14"
         android:layout_width="170dp"
         android:layout_height="163dp"
         android:background="@drawable/juego4"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="270dp" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="306dp" />
 
     <Button
         android:id="@+id/button18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="?attr/homeAsUpIndicator"
-        tools:layout_editor_absoluteX="67dp"
-        tools:layout_editor_absoluteY="646dp" />
+        android:layout_width="139dp"
+        android:layout_height="144dp"
+        android:background="@drawable/backblue"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="592dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

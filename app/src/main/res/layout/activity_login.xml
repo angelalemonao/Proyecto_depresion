@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/menufondo"
     tools:context=".LoginActivity">
+
     <EditText
         android:id="@+id/email"
         android:layout_width="250dp"
@@ -45,11 +47,12 @@
 
     <Button
         android:id="@+id/ingresar"
-        android:layout_width="97dp"
-        android:layout_height="43dp"
+        android:layout_width="107dp"
+        android:layout_height="61dp"
+        android:background="@drawable/botocuadrado"
         android:text="Ingresar"
-        tools:layout_editor_absoluteX="157dp"
-        tools:layout_editor_absoluteY="398dp" />
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="380dp" />
 
     <CheckBox
         android:id="@+id/checkBox"
@@ -61,15 +64,15 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#00FFFFFF"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:background="@drawable/botocuadrado"
         android:shadowColor="#00FFFFFF"
         android:text="Regístrate para poder iniciar sesión"
         android:textColorHighlight="#00FFFFFF"
         android:textColorHint="#00FFFFFF"
-        tools:layout_editor_absoluteX="67dp"
-        tools:layout_editor_absoluteY="517dp" />
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="490dp" />
 
     <TextView
         android:id="@+id/textView5"
