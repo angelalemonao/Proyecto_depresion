@@ -11,7 +11,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".Cuestionario"></activity>
         <activity android:name=".acerca_de_la_app" />
-        <activity android:name=".LoginActivity">
+        <activity android:name=".bienvenida">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
