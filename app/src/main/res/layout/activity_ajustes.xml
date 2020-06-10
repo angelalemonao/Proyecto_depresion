@@ -77,7 +77,7 @@
         tools:layout_editor_absoluteY="438dp" />
 
     <EditText
-        android:id="@+id/27/05/1995"
+        android:id="@+id/fechanac_"
         android:layout_width="281dp"
         android:layout_height="48dp"
         android:ems="10"

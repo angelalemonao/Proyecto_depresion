@@ -7,6 +7,25 @@
     android:background="#039BE5"
     tools:context=".registro">
 
+    <EditText
+        android:id="@+id/enombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginRight="156dp"
+        android:layout_marginBottom="104dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/eCorreo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eNombre" />
+
     <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
@@ -38,26 +57,6 @@
         tools:layout_editor_absoluteX="41dp"
         tools:layout_editor_absoluteY="124dp" />
 
-    <EditText
-        android:id="@+id/eNombre"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="42dp"
-        android:layout_marginLeft="42dp"
-        android:layout_marginTop="60dp"
-        android:layout_marginEnd="156dp"
-        android:layout_marginRight="156dp"
-        android:layout_marginBottom="20dp"
-        android:background="#039B5"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:textColor="#E7FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/eApellido"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
-
     <TextView
         android:id="@+id/etiquetaapellido"
         android:layout_width="209dp"
@@ -73,7 +72,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="42dp"
         android:layout_marginLeft="42dp"
-        android:layout_marginTop="20dp"
         android:layout_marginEnd="156dp"
         android:layout_marginRight="156dp"
         android:layout_marginBottom="25dp"
@@ -83,8 +81,7 @@
         app:layout_constraintBottom_toTopOf="@+id/eCorreo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/eNombre" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/eCorreo"
