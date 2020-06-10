@@ -77,7 +77,7 @@
         android:textColor="#FFFFFF"
         android:textSize="12sp"
         android:textStyle="bold|italic"
-        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="606dp" />
 
     <Button
