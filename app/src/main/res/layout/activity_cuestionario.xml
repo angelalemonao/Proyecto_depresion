@@ -7,116 +7,153 @@
     android:background="#009efd"
     tools:context=".Cuestionario">
 
-    <Switch
-        android:id="@+id/Prgta1_nunca_3ptos"
-        android:layout_width="61dp"
-        android:layout_height="33dp"
-        tools:layout_editor_absoluteX="298dp"
-        tools:layout_editor_absoluteY="271dp" />
+    <LinearLayout
+        android:layout_width="403dp"
+        android:layout_height="720dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="5dp">
 
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="229dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="91dp"
-        android:layout_marginLeft="91dp"
-        android:layout_marginTop="29dp"
-        android:layout_marginEnd="91dp"
-        android:layout_marginRight="91dp"
-        android:layout_marginBottom="649dp"
-        android:text="@string/cuestionario"
-        android:textColor="#FFFFFF"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:gravity="center"
+            android:text="@string/cuestionario"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="386dp"
-        android:layout_height="98dp"
-        android:layout_marginStart="14dp"
-        android:layout_marginLeft="14dp"
-        android:layout_marginEnd="14dp"
-        android:layout_marginRight="14dp"
-        android:text="Durante las ultimas semanas, ¡Te sientes identificada con algunas de estas preguntas a continuacion?"
-        android:textColor="#0E0909"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="111dp" />
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="98dp"
+            android:gravity="center"
+            android:text="Durante las ultimas semanas, ¡Te sientes identificada con algunas de estas preguntas a continuacion?"
+            android:textColor="#0E0909"
+            android:textSize="24sp" />
 
-    <TextView
-        android:id="@+id/textView16"
-        android:layout_width="126dp"
-        android:layout_height="37dp"
-        android:text="1.- Poco interes"
-        android:textColor="#070404"
-        android:textSize="18sp"
-        tools:layout_editor_absoluteX="19dp"
-        tools:layout_editor_absoluteY="272dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal">
 
-    <Switch
-        android:id="@+id/Prgta1_siempre_0ptos"
-        android:layout_width="56dp"
-        android:layout_height="35dp"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="272dp" />
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="469dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
 
-    <Switch
-        android:id="@+id/Prgta1_aveces_1ptos"
-        android:layout_width="51dp"
-        android:layout_height="32dp"
-        tools:layout_editor_absoluteX="232dp"
-        tools:layout_editor_absoluteY="272dp" />
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Nunca"
+                android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView24"
-        android:layout_width="66dp"
-        android:layout_height="27dp"
-        android:text="Siempre"
-        android:textSize="18sp"
-        android:textStyle="normal|bold|italic"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="235dp" />
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Aveces" />
 
-    <TextView
-        android:id="@+id/textView25"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Aveces"
-        android:textSize="18sp"
-        android:textStyle="normal|bold|italic"
-        tools:layout_editor_absoluteX="233dp"
-        tools:layout_editor_absoluteY="235dp" />
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Siempre" />
 
-    <TextView
-        android:id="@+id/textView26"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Nunca"
-        android:textSize="18sp"
-        android:textStyle="normal|bold|italic"
-        tools:layout_editor_absoluteX="298dp"
-        tools:layout_editor_absoluteY="235dp" />
+        </LinearLayout>
 
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="82dp"
-        android:layout_height="65dp"
-        android:background="@drawable/ok"
-        android:textColor="#FBFBFB"
-        tools:layout_editor_absoluteX="252dp"
-        tools:layout_editor_absoluteY="634dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/button29"
-        android:layout_width="93dp"
-        android:layout_height="89dp"
-        android:background="@drawable/backbtn"
-        tools:layout_editor_absoluteX="76dp"
-        tools:layout_editor_absoluteY="626dp" />
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="149dp"
+                android:layout_height="wrap_content"
+                android:text="1.- Poco interes"
+                android:textColor="#070404"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="149dp"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="#070404"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBox8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <CheckBox
+                android:id="@+id/checkBox9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <CheckBox
+                android:id="@+id/checkBox10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button29"
+                android:layout_width="93dp"
+                android:layout_height="89dp"
+                android:background="@drawable/backbtn" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="82dp"
+                android:layout_height="65dp"
+                android:background="@drawable/ok"
+                android:textColor="#FBFBFB" />
+        </LinearLayout>
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
