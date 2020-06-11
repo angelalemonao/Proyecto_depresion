@@ -86,20 +86,12 @@
         tools:layout_editor_absoluteY="472dp" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="89dp"
-        android:layout_height="71dp"
-        android:background="@drawable/ok"
-        tools:layout_editor_absoluteX="248dp"
-        tools:layout_editor_absoluteY="605dp" />
-
-    <Button
         android:id="@+id/button2"
-        android:layout_width="80dp"
-        android:layout_height="69dp"
+        android:layout_width="54dp"
+        android:layout_height="48dp"
         android:background="@drawable/back"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="605dp" />
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="628dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

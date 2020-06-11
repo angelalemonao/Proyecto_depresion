@@ -12,6 +12,7 @@
         android:layout_width="82dp"
         android:layout_height="58dp"
         android:background="@drawable/ok"
+        android:onClick="intent"
         android:shadowColor="#00FFFFFF"
         tools:layout_editor_absoluteX="320dp"
         tools:layout_editor_absoluteY="671dp" />
