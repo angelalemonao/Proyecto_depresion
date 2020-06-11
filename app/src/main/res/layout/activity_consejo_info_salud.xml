@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/xc">
+    android:background="@drawable/xc"
+    tools:context=".consejo_salud">
 
     <TextView
         android:id="@+id/textView21"
