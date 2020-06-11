@@ -6,47 +6,5 @@
     android:background="@drawable/xc"
     tools:context=".consejo_salud">
 
-    <TextView
-        android:id="@+id/textView21"
-        android:layout_width="175dp"
-        android:layout_height="51dp"
-        android:text="Hola tu IMC ES:"
-        android:textSize="24sp"
-        android:textStyle="bold|italic"
-        tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="49dp" />
 
-    <EditText
-        android:id="@+id/id_imc"
-        android:layout_width="75dp"
-        android:layout_height="52dp"
-        android:ems="10"
-        android:inputType="number"
-        tools:layout_editor_absoluteX="222dp"
-        tools:layout_editor_absoluteY="49dp" />
-
-    <TextView
-        android:id="@+id/textView22"
-        android:layout_width="338dp"
-        android:layout_height="328dp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="265dp" />
-
-    <TextView
-        android:id="@+id/textView23"
-        android:layout_width="287dp"
-        android:layout_height="123dp"
-        android:text="Sigue nuestros consejos!"
-        android:textSize="24sp"
-        android:textStyle="bold|italic"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="119dp" />
-
-    <Button
-        android:id="@+id/button26"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/btn_back"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="638dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
