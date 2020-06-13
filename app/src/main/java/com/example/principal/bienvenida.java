@@ -15,9 +15,18 @@ public class bienvenida extends AppCompatActivity {
         setContentView(R.layout.activity_bienvenida);
     }
 
-public void bienvenidabtn(View view)
+
+public void siguiente (View view)
 {
         Intent i = new Intent(this,acerca_de_la_app.class);
         startActivity(i);
 }
+
+
+
+
+
+
+
+
 }

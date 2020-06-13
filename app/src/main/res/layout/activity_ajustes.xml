@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#0055FF"
-    tools:context=".MainActivity">
+    tools:context=".ajustes">
 
     <TextView
         android:id="@+id/titulo"
@@ -86,12 +86,20 @@
         tools:layout_editor_absoluteY="472dp" />
 
     <Button
+        android:id="@+id/button"
+        android:layout_width="89dp"
+        android:layout_height="71dp"
+        android:background="@drawable/ok"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="605dp" />
+
+    <Button
         android:id="@+id/button2"
-        android:layout_width="54dp"
-        android:layout_height="48dp"
+        android:layout_width="80dp"
+        android:layout_height="69dp"
         android:background="@drawable/back"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="52dp"
-        tools:layout_editor_absoluteY="628dp" />
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="607dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

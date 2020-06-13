@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/b9be837132b94f8636cf61696b116e04">
+    android:background="@drawable/b9be837132b94f8636cf61696b116e04"
+    tools:context=".juegos">
 
     <Button
         android:id="@+id/button15"
