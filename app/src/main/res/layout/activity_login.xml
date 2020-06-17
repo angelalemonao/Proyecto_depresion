@@ -9,58 +9,65 @@
 
     <EditText
         android:id="@+id/email"
-        android:layout_width="250dp"
+        android:layout_width="329dp"
         android:layout_height="43dp"
+        android:background="@drawable/input"
         android:ems="10"
         android:inputType="textEmailAddress"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="212dp" />
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="218dp" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Correo electrónico:"
-        android:textColor="#121111"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="80dp"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="41dp"
         tools:layout_editor_absoluteY="186dp" />
 
     <EditText
         android:id="@+id/contraseña"
-        android:layout_width="250dp"
+        android:layout_width="329dp"
         android:layout_height="43dp"
+        android:background="@drawable/input"
         android:ems="10"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="316dp" />
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="317dp" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Contraseña:"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="80dp"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="41dp"
         tools:layout_editor_absoluteY="286dp" />
 
     <Button
         android:id="@+id/ingresar"
-        android:layout_width="107dp"
-        android:layout_height="61dp"
+        android:layout_width="113dp"
+        android:layout_height="45dp"
         android:background="@drawable/botocuadrado"
         android:text="Ingresar"
+        android:textColor="#FFFFFF"
         tools:layout_editor_absoluteX="150dp"
-        tools:layout_editor_absoluteY="380dp" />
+        tools:layout_editor_absoluteY="400dp" />
 
     <CheckBox
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Recordarme"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
         tools:layout_editor_absoluteX="150dp"
-        tools:layout_editor_absoluteY="458dp" />
+        tools:layout_editor_absoluteY="468dp" />
 
     <Button
         android:id="@+id/button3"
@@ -69,10 +76,11 @@
         android:background="@drawable/botocuadrado"
         android:shadowColor="#00FFFFFF"
         android:text="Regístrate para poder iniciar sesión"
+        android:textColor="#A7FFEB"
         android:textColorHighlight="#00FFFFFF"
         android:textColorHint="#00FFFFFF"
         tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="490dp" />
+        tools:layout_editor_absoluteY="530dp" />
 
     <TextView
         android:id="@+id/textView5"
@@ -81,10 +89,10 @@
         android:background="#00FFFFFF"
         android:fontFamily="cursive"
         android:text="¡Bienvenido!"
-        android:textColor="#000000"
+        android:textColor="#FFFFFF"
         android:textSize="36sp"
         android:textStyle="bold|italic"
-        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteX="122dp"
         tools:layout_editor_absoluteY="78dp" />
 
 
