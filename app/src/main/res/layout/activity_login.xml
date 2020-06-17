@@ -53,9 +53,9 @@
         android:id="@+id/ingresar"
         android:layout_width="113dp"
         android:layout_height="45dp"
-        android:background="@drawable/botocuadrado"
+        android:background="@drawable/btnregistro"
         android:text="Ingresar"
-        android:textColor="#FFFFFF"
+        android:textColor="#427287"
         tools:layout_editor_absoluteX="150dp"
         tools:layout_editor_absoluteY="400dp" />
 
@@ -67,7 +67,7 @@
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
         tools:layout_editor_absoluteX="150dp"
-        tools:layout_editor_absoluteY="468dp" />
+        tools:layout_editor_absoluteY="477dp" />
 
     <Button
         android:id="@+id/button3"
