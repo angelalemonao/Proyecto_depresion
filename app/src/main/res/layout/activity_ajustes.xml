@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0055FF"
+    android:background="#5371AE"
     tools:context=".ajustes">
 
     <TextView
@@ -17,21 +17,6 @@
         android:textSize="36sp"
         tools:layout_editor_absoluteX="135dp"
         tools:layout_editor_absoluteY="66dp" />
-
-    <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:orientation="vertical"
-        app:layout_constraintTop_toBottomOf="@+id/titulo"
-        tools:layout_editor_absoluteX="1dp">
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:srcCompat="@tools:sample/avatars" />
-    </LinearLayout>
 
     <TextView
         android:id="@+id/textView2"
@@ -99,7 +84,16 @@
         android:layout_height="69dp"
         android:background="@drawable/back"
         android:textColor="#FFFFFF"
+        android:textStyle="italic"
         tools:layout_editor_absoluteX="77dp"
         tools:layout_editor_absoluteY="607dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="165dp"
+        tools:srcCompat="@tools:sample/avatars" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

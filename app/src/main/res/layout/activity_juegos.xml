@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/b9be837132b94f8636cf61696b116e04"
+    android:background="@drawable/juegos_fondo"
     tools:context=".juegos">
 
     <Button
@@ -71,7 +71,7 @@
         android:layout_height="77dp"
         android:layout_marginStart="44dp"
         android:layout_marginLeft="44dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="48dp"
         android:layout_marginEnd="26dp"
         android:layout_marginRight="26dp"
         android:text="Juegos Interactivos"
@@ -79,7 +79,7 @@
         android:textSize="24sp"
         android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
