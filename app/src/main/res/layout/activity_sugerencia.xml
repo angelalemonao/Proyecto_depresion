@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#5C6ECD"
+    android:background="@drawable/gradient_background"
     tools:context=".sugerencias">
 
     <TextView
@@ -29,19 +29,7 @@
         android:textColorHighlight="#FFFFFF"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="134dp" />
-
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="332dp"
-        android:layout_height="155dp"
-        android:autoText="false"
-        android:background="#7381CF"
-        android:ems="10"
-        android:gravity="start|top"
-        android:inputType="textMultiLine"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="282dp" />
+        tools:layout_editor_absoluteY="154dp" />
 
     <Button
         android:id="@+id/button3"
@@ -58,4 +46,15 @@
         android:background="@drawable/back"
         tools:layout_editor_absoluteX="104dp"
         tools:layout_editor_absoluteY="491dp" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="242dp"
+        android:layout_height="107dp"
+        android:layout_margin="25dp"
+        android:text="Ingresa tus sugerencias"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="347dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
