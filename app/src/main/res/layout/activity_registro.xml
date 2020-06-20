@@ -11,6 +11,8 @@
         android:id="@+id/enombre"
         android:layout_width="329dp"
         android:layout_height="43dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
         android:background="@drawable/input"
         android:ems="10"
         android:hint="Ingresar nombre"
@@ -19,7 +21,7 @@
         android:paddingRight="20dp"
         android:textColor="#FFFFFF"
         android:textColorHint="#fff"
-        tools:layout_editor_absoluteX="42dp"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="174dp" />
 
     <EditText
