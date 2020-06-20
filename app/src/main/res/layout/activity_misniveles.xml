@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/xc"
+    android:background="@drawable/gradiente_ansiedad"
     tools:context=".misniveles">
 
     <Button
@@ -40,7 +40,7 @@
         android:layout_height="77dp"
         android:background="@drawable/boton"
         tools:layout_editor_absoluteX="95dp"
-        tools:layout_editor_absoluteY="275dp" />
+        tools:layout_editor_absoluteY="276dp" />
 
     <SeekBar
         android:id="@+id/seekBar2"
