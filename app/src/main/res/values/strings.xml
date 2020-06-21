@@ -2,4 +2,5 @@
     <string name="app_name">principal</string>
     <string name="cuestionario">CUESTIONARIO</string>
     <string name="juegos_interactivos">Juegos Interactivos</string>
+    <string name="ajustes">Ajustes</string>
 </resources>
