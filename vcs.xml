@@ -30,6 +30,10 @@
           <option name="url" value="https://github.com/delaroy/Quiz.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/HearTom/JuegoPokemon.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\Lab 107 - E4\AndroidStudioProjects" />
